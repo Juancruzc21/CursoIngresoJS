@@ -7,6 +7,6 @@ function mostrar()
 	edad = document.getElementById('edad').value;
 	edad = parseInt(edad);
 	
-	if (edad >= 18) alert("Bien capo");
+	if (edad > 17) alert("Bien capo");
 
 }//FIN DE LA FUNCIÓN
