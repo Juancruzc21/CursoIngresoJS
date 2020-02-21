@@ -4,6 +4,11 @@ function mostrar()
 	var numero;
 	numero = prompt("ingrese un número entre 0 y 10.");
 	parseInt(numero);
+	while(isNaN(numero))
+	{
+		numero = prompt("ingrese un número entre 0 y 10.");
+		parseInt(numero);	
+	}
 
 	while(numero < 0 || numero > 10 )
 	{
